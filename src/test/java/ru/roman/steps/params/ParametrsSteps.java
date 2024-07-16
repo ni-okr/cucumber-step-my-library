@@ -1,39 +1,54 @@
 package ru.roman.steps.params;
 
-import io.cucumber.java.ru.Р;
-import io.cucumber.java.ru.РљРѕРіРґР°;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.When;
 
 public class ParametrsSteps {
-    @РљРѕРіРґР°("РІРІРѕРґРёРј РёРјСЏ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ {word}")
+    @When("вводAndм Andмя пользователя {word}")
     public void username(String s) {
-        System.out.println("СЌС‚Рѕ СЂР°СЃРїРµС‡Р°С‚Р°Р»РѕСЃСЊ - " + s);
+        System.out.println("это распечаталось - " + s);
     }
 
-    @Р("I am a {word} user")
+    @And("I am a {word} user")
     public void user(String s) {
-        System.out.println("VK СЂР°СЃРїРµС‡Р°С‚Р°Р»РѕСЃСЊ - " + s);
+        System.out.println("VK распечаталось - " + s);
     }
 
-    @Р("I enter my username as {word}")
+    @And("I enter my username as {word}")
     public void enterUsername(String userName) {
-        System.out.println("MyName СЂР°СЃРїРµС‡Р°С‚Р°Р»РѕСЃСЊ - " + userName);
+        System.out.println("MyName распечаталось - " + userName);
     }
 
-    @Р("I enter my password as {int}")
-    public void enterPassword(int password) {
-        System.out.println("12345 СЂР°СЃРїРµС‡Р°С‚Р°Р»РѕСЃСЊ - " + password);
+    @And("I enter my password as {int}")
+    public void enterPasswordInt(int password) {
+        System.out.println("12345 распечаталось - " + password);
     }
 
-    @Р("login should be successful")
+    @And("I enter my password as {string}")
+    public void enterPasswordString(int password) {
+        System.out.println("12345 распечаталось - " + password);
+    }
+
+    @And("login should be successful")
     public void successful() {
-        System.out.println("successful СЂР°СЃРїРµС‡Р°С‚Р°Р»РѕСЃСЊ - ");
+        System.out.println("successful распечаталось - ");
     }
 
-    @Р("I enter my key phrase as {string}")
+    @And("I enter my key phrase as {string}")
     public void enterPhrase(String phrase) {
-        System.out.println("I like apples СЂР°СЃРїРµС‡Р°С‚Р°Р»РѕСЃСЊ - " + phrase);
+        System.out.println("I like apples распечаталось - " + phrase);
     }
 
-    //https://www.youtube.com/watch?v=bh7N9IvQg2Q - РєР°Рє Р·Р°Р»РёС‚СЊ РїСЂРѕРµРєС‚ РІ РіРёС‚С…Р°Р±
+    @And("I enter my username")
+    public void enterUsername2(){
+        System.out.println("MyName распечаталось - ");
+    }
+
+    //https://www.youtube.com/watch?v=bh7N9IvQg2Q - как залAndть проект в гAndтхаб
+
+    @And("Login should fail")
+    public void loginIsFail(){
+        System.out.println("Не залогAndнAndлось");
+    }
 
 }

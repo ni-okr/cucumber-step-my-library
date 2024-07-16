@@ -2,23 +2,36 @@ package ru.roman.home;
 
 public class Home01 {
     /*
-    - Придумайте простой сценарий для тестирования. Создайте feature-файл.
-    - Создайте шаги в коде
-    - Создайте класс запуска и запустите тестовый сценарий
+    >>> ДЗ.  РеалAndзуйте сценарAndй.
+    Andмя And пароль пока не указывайте, онAnd будут добавлены в следующем заданAndAnd.
+    Сейчас сформAndруйте запуск следующего сценарAndя.
+
+    GIVEN I am a VK user
+    WHEN I enter my username
+    AND I enter my password
+    THEN login should be successful
+    BUT home page should not be missing
+
      */
 
     /*
-    >>> Или же вот такой:
+    - Придумайте простой сценарAndй для тестирования. Создайте feature-файл.
+    - Создайте шаги в коде
+    - Создайте класс запуска And запустAndте тестовый сценарAndй
+     */
+
+    /*
+    >>> AndлAnd же вот такой:
 
     Given this is the first step
     When this is the second step
     Then this is the third step
      */
 
-    //https://www.youtube.com/watch?v=bh7N9IvQg2Q - как залить проект в гитхаб
+    //https://www.youtube.com/watch?v=bh7N9IvQg2Q - как залAndть проект в гAndтхаб
 
 
-    /* >>> Реализуйте сценарии и напишите класс запуска:    
+    /* >>> Реализуйте сценарии и напAndшAndте класс запуска:    
     Scenario: No login
        When I enter username as TOM
        And I enter password as "TOM AND JERRY"
@@ -29,9 +42,9 @@ public class Home01 {
     /*
     Создайте класс Calculator и метод sum(a, b), суммирующий числа.
 
-    Реализуйте и запустите сценарии тестирования данного метода.
-    Вычисления метода sum() выполняйте в шагах When.
-    В шагах Then используйте assertEquals() для сравнения результатов.
+    Реализуйте и запустAndте сценарAndAnd тестAndрованAndя данного метода.
+    ВычAndсленAndя метода sum() выполняйте в шагах When.
+    В шагах Then Andспользуйте assertEquals() для сравненAndя результатов.
 
     Feature: Basic Arithmetic
 

@@ -2,7 +2,7 @@ package ru.roman.lessons;
 
 public class LessonParams {
     /*
-    Параметры могут быть 2-х типов: Regular / Cucumber expressions
+    Параметры могут быть 2-х тAndпов: Regular / Cucumber expressions
      */
 
      /*
@@ -24,7 +24,7 @@ public class LessonParams {
 
      /*
      {word} - без пробелов
-     {string} - с пробелами
+     {string} - с пробеламAnd
 
      */
 }

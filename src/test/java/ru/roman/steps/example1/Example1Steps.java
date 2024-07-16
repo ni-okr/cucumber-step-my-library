@@ -4,7 +4,6 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.cucumber.java.ru.И;
 import org.junit.jupiter.api.Test;
 
 public class Example1Steps {
@@ -47,38 +46,38 @@ public class Example1Steps {
         System.out.println("registration is unsuccessful - метод отработал");
     }
 
-//    Дано находимся на странице регистрации
-//    Когда вводим данные
-//    Тогда регистрация успешна
+//    Дано находAndмся на странAndце регAndстрацAndAnd
+//    Когда вводAndм данные
+//    Тогда регAndстрацAndя успешна
 
-    @Given("находимся на странице регистрации")
+    @Given("находAndмся на странAndце регAndстрацAndAnd")
     public void pageRegistration() {
-        System.out.println("находимся на странице регистрации");
+        System.out.println("находAndмся на странAndце регAndстрацAndAnd");
     }
 
-    @When("вводим данные")
+    @When("вводAndм данные")
     public void enterDate() {
-        System.out.println("вводим данные");
+        System.out.println("вводAndм данные");
     }
 
-    @Then("^регистрация успешна$")
+    @Then("^регAndстрацAndя успешна$")
     public void sucsess() {
-        System.out.println("регистрация успешна");
+        System.out.println("регAndстрацAndя успешна");
     }
 
     @When("I enter my password")
     public void enterMyPassword() {
-        System.out.println("I enter my password - аннотация И");
+        System.out.println("I enter my password - аннотацAndя And");
     }
 
     @Then("home page should not be missing")
     public void missing() {
-        System.out.println("home page should not be missing - аннотация But");
+        System.out.println("home page should not be missing - аннотацAndя But");
     }
 
-//    Когда вводим имя пользователя user2
+//    Когда вводAndм Andмя пользователя user2
 
-    @When("вводим имя пользователя user2")
+    @When("вводим Andмя пользователя user2")
     void name() {
     }
 }
