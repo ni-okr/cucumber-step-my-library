@@ -3,6 +3,7 @@ package ru.roman;
 import ru.roman.lessons.LessonParams;
 import ru.roman.runners.Example1Test;
 import ru.roman.steps.params.ParametrsSteps;
+import ru.roman.steps.params.UpperCaseSteps;
 
 public class LessonCucumber {
     /*
@@ -61,7 +62,8 @@ public class LessonCucumber {
 
     // === передача параметров
     LessonParams lessonParams;
-    ParametrsSteps parametrsSteps;
+    
+    
     
 
     

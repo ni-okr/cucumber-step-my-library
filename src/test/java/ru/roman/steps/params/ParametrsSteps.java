@@ -4,7 +4,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.When;
 
 public class ParametrsSteps {
-    @When("вводAndм Andмя пользователя {word}")
+    @When("вводим имя пользователя {word}")
     public void username(String s) {
         System.out.println("это распечаталось - " + s);
     }

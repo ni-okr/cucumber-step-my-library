@@ -1,5 +1,12 @@
 package ru.roman.lessons;
 
+import io.cucumber.java.ru.Когда;
+import io.cucumber.java.ru.Тогда;
+import ru.roman.runners.CalcTest;
+import ru.roman.runners.ValidationTest;
+import ru.roman.steps.params.ParametrsSteps;
+import ru.roman.steps.params.UpperCaseSteps;
+
 public class LessonParams {
     /*
     Параметры могут быть 2-х тAndпов: Regular / Cucumber expressions
@@ -24,7 +31,23 @@ public class LessonParams {
 
      /*
      {word} - без пробелов
-     {string} - с пробеламAnd
-
+     {string} - с пробелами
      */
+
+    ParametrsSteps parametrsSteps;
+
+    // === пример передачи параметров и создание шагов
+    UpperCaseSteps upperCaseSteps;
+
+    /*
+
+    Структура сценария - Примеры
+
+    <...> позволяют подставлять данные из таблицы
+
+    */
+    CalcTest calcTest; // см. feature-файл и шаги
+    ValidationTest validationTest;
+
+
 }
