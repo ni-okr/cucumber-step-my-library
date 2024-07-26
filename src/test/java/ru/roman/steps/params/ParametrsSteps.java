@@ -4,51 +4,51 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.When;
 
 public class ParametrsSteps {
-    @When("вводим имя пользователя {word}")
+    @When("РІРІРѕРґРёРј РёРјСЏ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ {word}")
     public void username(String s) {
-        System.out.println("это распечаталось - " + s);
+        System.out.println("СЌС‚Рѕ СЂР°СЃРїРµС‡Р°С‚Р°Р»РѕСЃСЊ - " + s);
     }
 
     @And("I am a {word} user")
     public void user(String s) {
-        System.out.println("VK распечаталось - " + s);
+        System.out.println("VK СЂР°СЃРїРµС‡Р°С‚Р°Р»РѕСЃСЊ - " + s);
     }
 
     @And("I enter my username as {word}")
     public void enterUsername(String userName) {
-        System.out.println("MyName распечаталось - " + userName);
+        System.out.println("MyName СЂР°СЃРїРµС‡Р°С‚Р°Р»РѕСЃСЊ - " + userName);
     }
 
     @And("I enter my password as {int}")
     public void enterPasswordInt(int password) {
-        System.out.println("12345 распечаталось - " + password);
+        System.out.println("12345 СЂР°СЃРїРµС‡Р°С‚Р°Р»РѕСЃСЊ - " + password);
     }
 
     @And("I enter my password as {string}")
     public void enterPasswordString(int password) {
-        System.out.println("12345 распечаталось - " + password);
+        System.out.println("12345 СЂР°СЃРїРµС‡Р°С‚Р°Р»РѕСЃСЊ - " + password);
     }
 
     @And("login should be successful")
     public void successful() {
-        System.out.println("successful распечаталось - ");
+        System.out.println("successful СЂР°СЃРїРµС‡Р°С‚Р°Р»РѕСЃСЊ - ");
     }
 
     @And("I enter my key phrase as {string}")
     public void enterPhrase(String phrase) {
-        System.out.println("I like apples распечаталось - " + phrase);
+        System.out.println("I like apples СЂР°СЃРїРµС‡Р°С‚Р°Р»РѕСЃСЊ - " + phrase);
     }
 
     @And("I enter my username")
     public void enterUsername2(){
-        System.out.println("MyName распечаталось - ");
+        System.out.println("MyName СЂР°СЃРїРµС‡Р°С‚Р°Р»РѕСЃСЊ - ");
     }
 
-    //https://www.youtube.com/watch?v=bh7N9IvQg2Q - как залAndть проект в гAndтхаб
+    //https://www.youtube.com/watch?v=bh7N9IvQg2Q - РєР°Рє Р·Р°Р»AndС‚СЊ РїСЂРѕРµРєС‚ РІ РіAndС‚С…Р°Р±
 
     @And("Login should fail")
     public void loginIsFail(){
-        System.out.println("Не залогAndнAndлось");
+        System.out.println("РќРµ Р·Р°Р»РѕРіAndРЅAndР»РѕСЃСЊ");
     }
 
 }

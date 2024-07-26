@@ -18,10 +18,15 @@ public class CalculatorSteps {
     public void init(){
         calc = new Calculator();
     }
-    
+
     @And("складываю {int} с {int}")
     public void input(int a, int b){
         result = calc.sum(a, b);
+    }
+
+    @And("умножаю {int} на 10")
+    public void input_multiplayer_10(int a){
+        result = calc.multiplyBy10(a);
     }
     
     @And("результат равен {int}")

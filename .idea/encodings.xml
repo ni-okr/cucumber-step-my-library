@@ -6,7 +6,7 @@
     <file url="file://$PROJECT_DIR$/src/test/java/ru/roman/steps/example1/AndSteps.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/test/java/ru/roman/steps/example1/Example1Steps.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/test/java/ru/roman/steps/home01/BasicArithmetic.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/test/java/ru/roman/steps/params/ParametrsSteps.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/test/java/ru/roman/steps/params/ParametrsSteps.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/test/resources/home01/home01.feature" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/test/resources/params/zadacha1.feature" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
